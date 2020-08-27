@@ -1,0 +1,699 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+    .buttonUp
+    {
+        display: none !important;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 310px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #191837;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .responses_count
+    {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+
+    header .account
+    {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    header .account .logout
+    {
+        display: inline-block;
+    }
+
+
+    header .menu
+    {
+        width: 100%;
+        margin: 0;
+
+        order: 3;
+    }
+
+    header .menu .item
+    {
+        width: 100%;
+    }
+
+    header .menu .item + .item
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .exp
+    {
+        min-height: 0;
+        padding: 0;
+    }
+
+
+    .form .submit,
+    .form .submit.padding
+    {
+        padding: 0;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 15px;
+
+        letter-spacing: 1.9px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *:last-child.clear
+    {
+        margin-bottom: 0 !important;
+    }
+
+    .text_block img.left,
+    .text_block img.right
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Request form
+    ------------------*/
+    .request_form .data
+    {
+        padding: 25px;
+    }
+
+    .request_form .block_title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .request_form .form .submit
+    {
+        padding: 0;
+    }
+
+    .request_form .form .agree
+    {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .request_form .form .submit_btn
+    {
+        width: 100%;
+
+        order: 3;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .data,
+    .auth .data.login,
+    .auth .data.recovery
+    {
+        padding: 25px;
+    }
+
+    .auth .block_title,
+    .auth .data.login .block_title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .data
+    {
+        padding: 25px;
+    }
+
+    .profile .block_title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 25px;
+    }
+
+    .profile .logout_link
+    {
+        top: 30px;
+        right: 25px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .head .title
+    {
+        line-height: 32px;
+    }
+
+
+    .requests .empty_message
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        padding: 40px 0;
+    }
+
+    .requests .empty_message .icon
+    {
+        width: 62px;
+        height: 62px;
+    }
+
+    .requests .empty_message .add_link
+    {
+        margin-top: 20px;
+    }
+
+
+    .requests .request .status.absolute
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin: 0 0 15px;
+    }
+
+    .requests .request .status.absolute + .name
+    {
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .requests .request .thumb + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .requests .request .details
+    {
+        padding: 0 19px;
+    }
+
+
+
+    /*------------------
+        Request info
+    ------------------*/
+    .request_info .head .title
+    {
+        line-height: 32px;
+    }
+
+    .request_info .head .warning
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding-right: 20px;
+    }
+
+
+    .request_info .data
+    {
+        padding: 20px;
+    }
+
+
+    .request_info .data .thumb + .info
+    {
+        width: calc(100% - 169px);
+    }
+
+
+    .request_info .data .status.absolute
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin-bottom: 15px;
+    }
+
+
+    .request_info .data .info > .name
+    {
+        line-height: 24px;
+    }
+
+
+    .request_info .data .info .author
+    {
+        padding-bottom: 0;
+    }
+
+
+    .request_info .data .info .date,
+    .request_info .data .info .duration,
+    .request_info .data .location,
+    .request_info .data .cat
+    {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 29px;
+    }
+
+    .request_info .data .info .duration,
+    .request_info .data .location,
+    .request_info .data .cat
+    {
+        margin-top: 10px;
+    }
+
+
+    .request_info .data .gallery a
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .request_info .data .form .attachment,
+    .request_info .data .dialog .answer_form .attachment
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .request_info .data .form .submit
+    {
+        width: 100%;
+    }
+
+    .request_info .data .response_form .submit_btn,
+    .request_info .data .dialog .answer_form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .request_info .data .dialog
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+        padding-top: 15px;
+    }
+
+    .request_info .data .dialog .message
+    {
+        margin: 0 -20px;
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Responses
+    ---------------*/
+    .responses .head .sorting
+    {
+        width: 100%;
+    }
+
+    .responses .head .sorting .types
+    {
+        display: block;
+
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: 10px -20px 0;
+        padding: 0 20px;
+    }
+
+
+    .responses .response .dialog .answer_form .attachment
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .responses .response .dialog .answer_form .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .data
+    {
+        padding: 25px;
+    }
+
+
+    .info_block .data .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .info_block .data .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .info_block .data .links
+    {
+        margin-top: 20px;
+    }
+
+
+    .info_block .data .free_responses .val
+    {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .head
+    {
+        margin-bottom: 25px;
+    }
+
+    .faq .head .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        width: 100%;
+    }
+
+    .faq .head .send_btn
+    {
+        font-size: 15px;
+        line-height: 44px;
+
+        height: 44px;
+        margin-top: 15px;
+        padding: 0 25px;
+    }
+
+
+    .faq .item .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .data
+    {
+        padding: 25px;
+    }
+
+    .feedback .block_title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .feedback .form .attachment
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feedback .form .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .data
+    {
+        padding: 20px;
+    }
+
+
+    .tariffs .block_title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .tariffs .notice
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .tariffs .current_tariff
+    {
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+
+    .tariffs .current_tariff > *
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .tariffs .current_tariff .item
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .tariffs .tariff
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .tariffs .history .item
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .tariffs .history .name
+    {
+        width: 140px;
+    }
+
+    .tariffs .history .duration
+    {
+        width: calc(100% - 140px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        top: 10px;
+        right: 10px;
+
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+
+
+    .modal
+    {
+        padding: 40px;
+    }
+
+
+    #message_modal .text
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+}

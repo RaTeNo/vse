@@ -1,0 +1,504 @@
+@media (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 24px;
+    }
+
+
+    header .account
+    {
+        margin-left: 30px;
+    }
+
+    header .account .logout
+    {
+        display: none;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 24px;
+    }
+
+
+
+    /*------------------
+        Request form
+    ------------------*/
+    .request_form .data
+    {
+        padding: 30px;
+    }
+
+    .request_form .block_title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .block_title,
+    .auth .data.login .block_title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .block_title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+    .profile .logout_link
+    {
+        top: 44px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .head .title
+    {
+        line-height: 36px;
+    }
+
+
+    .requests .empty_message
+    {
+        font-size: 22px;
+        line-height: 30px;
+
+        padding: 50px 0;
+    }
+
+    .requests .empty_message .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .requests .empty_message .add_link
+    {
+        margin-top: 25px;
+    }
+
+
+
+    /*-------------
+        Sorting
+    -------------*/
+    .sorting > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .sorting .types
+    {
+        font-size: 0;
+
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+    }
+
+    .sorting .types::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: none;
+    }
+
+    .sorting .types::-webkit-scrollbar-thumb
+    {
+        background-color: none;
+    }
+
+    .sorting .types > *
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .sorting .types > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .request_info .head .title
+    {
+        line-height: 35px;
+    }
+
+    .request_info .head .warning
+    {
+        line-height: 23px;
+    }
+
+
+    .requests .request .date,
+    .requests .request .duration,
+    .requests .request .location,
+    .requests .request .cat
+    {
+        margin-top: 15px;
+    }
+
+    .requests .request .duration + .location
+    {
+        min-width: 135px;
+        margin-left: 0;
+    }
+
+
+    .requests .request .desc
+    {
+        margin-top: 15px;
+
+        order: 2;
+    }
+
+    .requests .request .price
+    {
+        width: 100%;
+        margin-top: 15px;
+
+        text-align: left;
+    }
+
+
+    .requests .request .details,
+    .requests .request .response,
+    .requests .request .recover,
+    .requests .request .not_interesting
+    {
+        margin-top: 15px;
+
+        order: 3;
+    }
+
+
+
+    /*------------------
+        Request info
+    ------------------*/
+    .request_info .data .info > .name
+    {
+        line-height: 30px;
+    }
+
+    .request_info .data .info .date,
+    .request_info .data .info .duration,
+    .request_info .data .location,
+    .request_info .data .cat
+    {
+        margin-top: 15px;
+    }
+
+    .request_info .data .info .duration ~ .cat
+    {
+        min-width: 135px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Responses
+    ---------------*/
+    .responses .data
+    {
+        padding: 0;
+    }
+
+
+    .responses .head .sorting .types
+    {
+        font-size: 0;
+
+        display: flex;
+        overflow: auto;
+
+        width: calc(100% + 4px);
+        max-width: calc(100% + 4px);
+        margin: 0 0 0 -4px;
+        padding: 0;
+
+        white-space: nowrap;
+    }
+
+
+    .responses .response .dialog_btn,
+    .responses .response .new_message
+    {
+        margin-top: 15px;
+    }
+
+
+    .responses .response .dialog .message .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .data .title
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .info_block .data .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        margin-top: 20px;
+    }
+
+    .info_block .data .links
+    {
+        margin-top: 25px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .faq .head .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .faq .item .title
+    {
+        font-size: 22px;
+        line-height: 30px;
+
+        min-height: 84px;
+        padding: 20px 94px 20px 25px;
+    }
+
+    .faq .item .title .icon
+    {
+        top: 20px;
+        right: 25px;
+    }
+
+    .faq .item .data
+    {
+        padding: 0 25px 35px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .block_title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .data
+    {
+        padding: 25px;
+    }
+
+
+    .tariffs .block_title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .tariffs .notice
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .tariffs .current_tariff
+    {
+        margin-bottom: 35px;
+    }
+
+    .tariffs .current_tariff .item
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .tariffs .history .title
+    {
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 20px;
+    }
+
+    .tariffs .history .item
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .tariffs .history .item + .item
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 15px;
+
+        text-align: left;
+
+        order: 3;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+
+    .modal
+    {
+        padding: 60px;
+    }
+
+
+    #message_modal .text
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

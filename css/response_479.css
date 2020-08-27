@@ -1,0 +1,473 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .label
+    {
+        font-size: 15px;
+        line-height: 17px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .form .attachment .files
+    {
+        margin-left: -30px;
+    }
+
+    .form .attachment .files > *
+    {
+        max-width: calc(100% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .form input[type=checkbox] + label
+    {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+    .form .success_message
+    {
+        font-size: 15px;
+        line-height: 18px;
+
+        margin-bottom: 20px;
+        padding-left: 40px;
+
+        letter-spacing: .5px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Request form
+    ------------------*/
+    .request_form .data
+    {
+        padding: 20px;
+    }
+
+
+    .request_form .form .budget .input
+    {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .data,
+    .auth .data.login,
+    .auth .data.recovery
+    {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .data
+    {
+        padding: 20px;
+    }
+
+    .profile .logout_link
+    {
+        top: 25px;
+        right: 20px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .head .title
+    {
+        line-height: 29px;
+    }
+
+
+    .requests .empty_message
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .requests .request
+    {
+        padding: 20px;
+    }
+
+    .requests .request .thumb
+    {
+        width: 100%;
+    }
+
+
+    .requests .request .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .requests .request .date,
+    .requests .request .duration,
+    .requests .request .location,
+    .requests .request .cat
+    {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 29px;
+    }
+
+    .requests .request .duration,
+    .requests .request .location,
+    .requests .request .cat
+    {
+        margin-top: 10px;
+    }
+
+
+    .requests .request .desc
+    {
+        line-height: 20px;
+    }
+
+
+    .requests .request .details
+    {
+        padding: 0 30px;
+    }
+
+
+    .requests .request .response
+    {
+        line-height: 18px;
+
+        width: 100px;
+    }
+
+    .requests .request .recover + .response
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Request info
+    ------------------*/
+    .request_info .head .title
+    {
+        line-height: 29px;
+    }
+
+    .request_info .head .warning
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+
+    .responses .response .status
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .request_info .data .thumb + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    .request_info .data .author .name
+    {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+    .request_info .data .desc
+    {
+        line-height: 22px;
+
+        margin-top: 15px;
+    }
+
+
+    .request_info .data .gallery a
+    {
+        width: 83px;
+        height: 83px;
+    }
+
+
+    .responses .response .new_message
+    {
+        line-height: 18px;
+
+        width: 100px;
+    }
+
+
+    .request_info .data .respond_btn,
+    .request_info .data .dialog_btn,
+    .request_info .data .get_access_btn,
+    .request_info .data .not_interesting
+    {
+        margin-top: 15px;
+    }
+
+    .request_info .data .respond_btn
+    {
+        min-width: 160px;
+        padding: 0 25px;
+    }
+
+
+    .request_info .data .dialog .message .new_message
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Responses
+    ---------------*/
+    .responses .response .desc
+    {
+        line-height: 22px;
+    }
+
+    .responses .response .dialog .message .new_message
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .data
+    {
+        padding: 20px;
+    }
+
+
+    .info_block .data .title
+    {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .info_block .data .desc
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .head .title
+    {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .faq .item .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        padding: 20px 84px 20px 20px;
+    }
+
+    .faq .item .title .icon
+    {
+        right: 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .data
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .notice
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding-left: 48px;
+    }
+
+
+    .tariffs .current_tariff
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .tariffs .tariff
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        padding: 20px;
+    }
+
+    .tariffs .tariff .name
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .tariffs .history .item
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .tariffs .history .name
+    {
+        width: 95px;
+    }
+
+    .tariffs .history .duration
+    {
+        width: calc(100% - 95px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: 100%;
+        margin-top: 15px;
+
+        text-align: left;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 30px;
+    }
+
+
+    #message_modal .text
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

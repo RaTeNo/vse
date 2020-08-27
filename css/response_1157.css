@@ -1,0 +1,288 @@
+@media (max-width: 1157px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .buttonUp
+    {
+        right: 20px;
+
+        margin-right: 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*------------------
+        Request form
+    ------------------*/
+    .request_form .block_title
+    {
+        font-size: 38px;
+        line-height: 46px;
+
+        margin-bottom: 35px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .block_title,
+    .auth .data.login .block_title
+    {
+        font-size: 38px;
+        line-height: 46px;
+
+        margin-bottom: 35px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .block_title
+    {
+        font-size: 38px;
+        line-height: 46px;
+
+        margin-bottom: 35px;
+    }
+
+    .profile .logout_link
+    {
+        top: 50px;
+    }
+
+
+
+    /*--------------
+        Requests
+    --------------*/
+    .requests .empty_message
+    {
+        font-size: 25px;
+        line-height: 35px;
+
+        padding: 80px 0;
+    }
+
+
+    .requests .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .request_info .head .title
+    {
+        line-height: 38px;
+    }
+
+    .request_info .head .back_link
+    {
+        margin-top: 15px;
+    }
+
+    .request_info .head .warning
+    {
+        line-height: 25px;
+    }
+
+
+    .requests .request
+    {
+        padding: 25px;
+    }
+
+    .requests .request .thumb + .info
+    {
+        width: calc(100% - 267px);
+    }
+
+    .requests .request .desc
+    {
+        line-height: 24px;
+    }
+
+
+
+    /*------------------
+        Request info
+    ------------------*/
+    .request_info .data
+    {
+        padding: 25px;
+    }
+
+    .request_info .data .desc
+    {
+        line-height: 24px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Responses
+    ---------------*/
+    .responses .data
+    {
+        padding: 0 25px;
+    }
+
+
+    .responses .response .desc
+    {
+        line-height: 24px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .block_title
+    {
+        font-size: 38px;
+        line-height: 46px;
+
+        margin-bottom: 35px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .data
+    {
+        padding: 30px;
+    }
+
+
+    .tariffs .block_title
+    {
+        font-size: 38px;
+        line-height: 46px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .tariffs .notice
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .tariffs .row
+    {
+        margin-left: -20px;
+    }
+
+    .tariffs .row > *
+    {
+        width: calc(25% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .tariffs .tariff
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .tariffs .history
+    {
+        margin-top: 40px;
+    }
+
+    .tariffs .history .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 25px;
+    }
+
+    .tariffs .history .item
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #message_modal .icon
+    {
+        margin-bottom: 25px;
+    }
+
+    #message_modal .text
+    {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
