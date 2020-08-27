@@ -219,6 +219,11 @@
         line-height: 18px;
 
         width: 100px;
+
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+
     }
 
     .requests .request .recover + .response
@@ -469,5 +474,13 @@
     {
         font-size: 18px;
         line-height: 26px;
+    }
+
+    .requests .request .new_messages{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .requests .request .status{
+        margin-right: auto;
     }
 }
