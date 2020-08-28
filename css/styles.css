@@ -4704,7 +4704,6 @@ header .account .logout:hover
 
     cursor: pointer;
     white-space: nowrap;
-    text-overflow: ellipsis;
 
     border-radius: 17px;
     background: linear-gradient(198.85deg, #fad961 -34.64%, #f76b1c 87.28%);
