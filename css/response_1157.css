@@ -266,6 +266,21 @@
 
 
 
+    /*-------------
+        Sorting
+    -------------*/
+    .sorting .types
+    {
+        display: none;
+    }
+
+    .sorting .mob_types
+    {
+        display: flex;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

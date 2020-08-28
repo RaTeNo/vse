@@ -324,6 +324,11 @@
     {
         margin-bottom: 25px;
     }
+    
+    .requests .request .thumb img
+    {
+        position: relative;
+    }
 
 
     .requests .request .thumb + .info
@@ -656,6 +661,26 @@
     .tariffs .history .duration
     {
         width: calc(100% - 140px);
+    }
+
+
+    /*-------------
+        Sorting
+    -------------*/
+    .sorting > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    .sorting .mob_types
+    {
+        width: 100%;
+    }
+
+    .sorting .mob_types .nice-select
+    {
+        width: calc(100% - 83px);
     }
 
 

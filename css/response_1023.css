@@ -151,55 +151,6 @@
 
 
 
-    /*-------------
-        Sorting
-    -------------*/
-    .sorting > * + *
-    {
-        margin-top: 10px;
-    }
-
-    .sorting .types
-    {
-        font-size: 0;
-
-        display: block;
-        overflow: auto;
-
-        width: calc(100% + 40px);
-        max-width: calc(100% + 40px);
-        margin: 0 -20px;
-        padding: 0 20px;
-
-        white-space: nowrap;
-    }
-
-    .sorting .types::-webkit-scrollbar
-    {
-        width: 0;
-        height: 0;
-
-        background-color: none;
-    }
-
-    .sorting .types::-webkit-scrollbar-thumb
-    {
-        background-color: none;
-    }
-
-    .sorting .types > *
-    {
-        margin-bottom: 0;
-        margin-left: 0;
-    }
-
-    .sorting .types > * + *
-    {
-        margin-left: 4px;
-    }
-
-
-
     /*--------------
         Requests
     --------------*/
@@ -234,7 +185,6 @@
         margin-top: 15px;
 
         order: 2;
-        min-height: auto;
     }
 
     .requests .request .price

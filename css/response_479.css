@@ -13,6 +13,42 @@
     /*------------
         Header
     ------------*/
+    .mob_header .logo > *
+    {
+        padding-top: 7px;
+        padding-right: 35px;
+    }
+
+    .mob_header .logo .name
+    {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .mob_header .logo .desc
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .mob_header .logo img
+    {
+        width: 30px;
+    }
+
+
+
+    .mob_header .responses_count
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .mob_header .responses_count .val
+    {
+        font-size: 30px;
+        line-height: 30px;
+    }
 
 
 
@@ -219,16 +255,18 @@
         line-height: 18px;
 
         width: 100px;
-
         min-height: 40px;
         display: flex;
         align-items: center;
-
     }
 
     .requests .request .recover + .response
     {
         margin-left: 0;
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        font-size: 14px;
     }
 
 
@@ -482,5 +520,15 @@
     }
     .requests .request .status{
         margin-right: auto;
+    }
+
+    .requests .request .date{
+    	background: url(../images/ic_date.svg) 2px 50% no-repeat;
+    }
+    .requests .request .duration{
+    	background: url(../images/ic_duration.svg) 3px 50% no-repeat;
+    }
+    .requests .request .location{
+    	background: url(../images/ic_location.svg) 3px 50% no-repeat;
     }
 }
